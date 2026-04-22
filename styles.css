@@ -10,10 +10,42 @@ Figma: https://tinyurl.com/4dza36sm
 */
 
 body {
-    margin: 0; 
+    margin: 0;
     text-align: center;
 }
 
-img {
-    width: 100px;
+#main-title {
+    margin-top: 0;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-image: url("images/delhi-img-1.jpg");
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+#hero h1 {
+    background: #1D3557;
+    align-self: center;   /* or flex-start */
+    width: fit-content;
+    padding: 4px 12px;
+    border-radius: 10px;
+}
+
+#hero p {
+    margin: 0 40px;
+    font-size: 1.1rem;
+    font-weight:700;
+    background: #457B9D;
+    align-self: center;   /* or flex-start */
+    max-width: 412px;
+    padding: 4px 12px;
+    border-radius: 10px;
+
 }
