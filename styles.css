@@ -12,6 +12,7 @@ Figma: https://tinyurl.com/4dza36sm
 body {
     margin: 0;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #main-title {
@@ -48,4 +49,46 @@ body {
     padding: 4px 12px;
     border-radius: 10px;
 
+}
+
+#activity-section {
+    background-color: #F1FAEE;
+    margin-top: 0;
+    color: #1D3557;
+}
+
+#activity-section h1 {
+    font-size:1.6rem;
+    font-weight: 600;
+    margin-top: 0;
+    padding-top: 40px;
+    margin-bottom: 60px;
+}
+
+#activity-list{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin: 0 40px;
+    padding-bottom: 40px;
+}
+
+.activity {
+    flex: 0 1 240px;
+}
+
+.activity img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.activity h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.activity p {
+    font-size: 0.9rem;
 }
