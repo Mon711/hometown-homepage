@@ -92,3 +92,43 @@ body {
 .activity p {
     font-size: 0.9rem;
 }
+
+#guide {
+    display: flex;
+    background-color: #A8DADC;
+    width: 400px;
+    margin: 40px auto;
+    height: 294px;
+    border-radius: 10px;
+    border-bottom: 6px solid #1D3557;;
+}
+
+#guide img {
+    width: 180px;
+    object-fit: cover;
+    margin: 20px 12px;
+    border-radius: 10px;
+}
+
+#about-guide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 8px;
+    color: #1D3557;
+}
+
+#about-guide h2 {
+    margin-bottom: 0;
+    font-size: 1.3rem;
+}
+
+#about-guide p{
+    font-style: italic;
+    font-weight: 100;
+}
+
+#about-guide h3{
+    font-size: 1rem;
+    font-weight: 600;
+}
